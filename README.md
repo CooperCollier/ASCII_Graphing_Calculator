@@ -1,7 +1,7 @@
 # ASCII_Graphing_Calculator
 Made by Cooper Collier in June 2020
 
-This is an interactive graphing calculator written in C. It parses raw user input through the use of a behind-the-scenes parsing tree (more on that below). This calculator can handle more than ten major math operations. It can also re-scale and move around existing graphs interactively. 
+This is an interactive graphing calculator written in C. It parses raw user input through the use of a behind-the-scenes parsing tree (more on that below). This calculator can handle more than ten major math operations. It can also re-scale and move around existing graphs interactively. All of the code has many extensive comments.
 
 *Instructions for using the calculator, as shown in the interactive display:*
 
