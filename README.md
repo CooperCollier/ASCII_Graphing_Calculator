@@ -18,6 +18,7 @@ n units in the y-direction by typing "y n", or zoom by a factor of n by
 typing "z n". For zooming, if n is less than one then the graph will zoom in.
 
 Here are some examples of correctly formatted equations:
+
 ((sin x) \* 3) ^ 1.5
 
 27 - ((x / -cosx) + (-2) \* (log x))
