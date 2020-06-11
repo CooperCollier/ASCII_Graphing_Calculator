@@ -35,15 +35,15 @@ may appear stretched vertically.
 
 X^5 / (10^6)
 
-<ing1>
+![](img1.png)
 
 (5 - lnx) \* -sin(x)
 
-<ing2>
+![](img2.png)
 
 ((20^2) - x^2) ^ 0.5
 
-<img3>
+![](img3.png)
 
 *How it works--Behind the scenes:*
 1) The calculator requests raw user input text, in the form of an equation. The text is then cleaned (all letters
@@ -52,7 +52,7 @@ turned to lowercase and whitespace stripped).
 Of Operations), splits the equation in half around that operand, and repeats parsing the left and right halves recursively.
 Each parsed equation is added to an instruction tree. For example, (5 - lnx) * -sin(x) is turned into this tree:
 
-<img4>
+![](img4.png)
   
 3) Along the way, the parser checks for any unusual behavior, and if it is detected, stops and displays an error message, prompting the user to try again. This is raised when the user inputs an incorrectly formatted equation (or if the user imputs gobbeldygook). 
 4) For every x-value in the usable range, the calculator runs it through the instruction tree, and prints a dot at the (x, y) coordinate corresponsing to the result.
