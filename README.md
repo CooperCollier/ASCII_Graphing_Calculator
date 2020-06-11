@@ -19,9 +19,13 @@ typing "z n". For zooming, if n is less than one then the graph will zoom in.
 
 Here are some examples of correctly formatted equations:
 ((sin x) \* 3) ^ 1.5
+
 27 - ((x / -cosx) + (-2) \* (log x))
+
 (5 - lnx) \* -sin(x)
+
 4 \* x^ -2 - 2 \* tanx / ln x ^3
+
 ((((8 - ln x)) \* e)) + 0.85
 
 A final note: Since ASCII text is taller than it is wide, the graph output
