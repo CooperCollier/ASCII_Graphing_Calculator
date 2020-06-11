@@ -4,6 +4,7 @@ Made by Cooper Collier in June 2020
 This is an interactive graphing calculator written in C. It parses raw user input through the use of a behind-the-scenes parsing tree (more on that below). This calculator can handle more than ten major math operations. It can also re-scale and move around existing graphs interactively. 
 
 *Instructions for using the calculator, as shown in the interactive display:*
+
 How to use this graphing calculator:
 At any time, you can type 'q' to quit, or type 'i' to read these instructions.
 You can also type in an equation to graph. This calculator supports the
@@ -15,12 +16,14 @@ clarify the order of operations for your equation. Once you have graphed an
 equation, you can pan n units in the x-direction by typing "x n", or pan
 n units in the y-direction by typing "y n", or zoom by a factor of n by
 typing "z n". For zooming, if n is less than one then the graph will zoom in.
+
 Here are some examples of correctly formatted equations:
 ((sin x) \* 3) ^ 1.5
 27 - ((x / -cosx) + (-2) \* (log x))
 (5 - lnx) \* -sin(x)
 4 \* x^ -2 - 2 \* tanx / ln x ^3
 ((((8 - ln x)) \* e)) + 0.85
+
 A final note: Since ASCII text is taller than it is wide, the graph output
 may appear stretched vertically.
 
